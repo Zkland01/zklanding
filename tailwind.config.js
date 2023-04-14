@@ -9,8 +9,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "mergic": ["Mergic", "sans-serif"],
-        "sigmar-one": ["SigmarOne", "sans-serif"],
+        mergic: ["Mergic", "sans-serif"],
+        "NovaFlat-Regular": ["NovaFlat-Regular", "sans-serif"],
+        "DISCOVERY": ["DISCOVERY", "sans-serif"],
       },
     },
   },
