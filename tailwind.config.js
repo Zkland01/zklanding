@@ -11,8 +11,6 @@ module.exports = {
       animation: {
         "bounce-slow": "bounce 3s infinite",
       },
-       animation: {
-        'custom-spin': 'custom-spin 4s linear infinite',},
       fontFamily: {
         mergic: ["Mergic", "sans-serif"],
         "NovaFlat-Regular": ["NovaFlat-Regular", "sans-serif"],
