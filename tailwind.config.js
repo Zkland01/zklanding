@@ -8,13 +8,21 @@ module.exports = {
   plugins: [require("tailwindcss"), require("autoprefixer")],
   theme: {
     extend: {
+      animation: {
+        "bounce-slow": "bounce 3s infinite",
+      },
+       animation: {
+        'custom-spin': 'custom-spin 4s linear infinite',},
       fontFamily: {
         mergic: ["Mergic", "sans-serif"],
         "NovaFlat-Regular": ["NovaFlat-Regular", "sans-serif"],
-        "DISCOVERY": ["DISCOVERY", "sans-serif"],
+        DISCOVERY: ["DISCOVERY", "sans-serif"],
       },
     },
   },
   variants: {},
   plugins: [],
+
+
+ 
 };
